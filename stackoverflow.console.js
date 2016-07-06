@@ -4,7 +4,7 @@
 	var xhr = new XMLHttpRequest();
 
 	xhr.addEventListener("load", xhr_load);
-	xhr.open("GET", "info.json");
+	xhr.open("GET", "hubot.json");
 	xhr.send();
 
 	function xhr_load (event) {
